@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="My portfolio website to showcase the work I have done so far, the services I provide and all my professional's life.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, portfolio website">
+    <meta name="author" content="Nikhil Thakur">
+  <title>Shavez_Ali</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <img src="images/Nt.png" alt="gp tech logo" class="logo" />
+    <nav class="navbar">
+      <ul class="navbar-lists">
+        <li><a class="navbar-link home-link" href="/index.html">Home</a></li>
+        <li><a class="navbar-link about-link" href="/about.html">About</a></li>
+        <li><a class="navbar-link service-link" href="/service.html">Services</a></li>
+        <li><a class="navbar-link portfolio-link" href="#portfolio-section">Portfolio</a></li>
+        <li>
+          <a class="navbar-link" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="mobile-navbar-btn">
+      <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+
+      <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+    </div>
+  </header>
+
+  <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+  <main>
+    <section class="section-hero section">
+      <div class="container grid grid-two-col">
+        <div class="section-hero-data">
+          <p class="hero-top-data">this is me</p>
+          <h1 class="hero-heading">Shavej Ali</h1>
+          <p class="hero-para">
+            I'm Shavej Ali. I am pursuing Graduate BCA in computer science.
+          </p>
+          <div>
+            <a href="#" target="_blank" class="btn hireme-btn">Hire Me</a>
+          </div>
+        </div>
+
+        <div class="section-hero-image">
+          <img src="images/_shahvez_ali_-20220918-0001.jpg" alt="hero image" class="hero-img" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================== 
+           Bio Data Section Start  
+    ========================================  -->
+  <section class="section-biodata section">
+    <div class="container grid grid-two-col">
+      <div class="bio-image">
+        <img src="images/biodata.jpg" alt="bio data image" data-src="images/biodata.jpg" />
+      </div>
+      <div class="bio-data">
+        <h2 class="common-heading">my bio-data</h2>
+        <p>
+          I Am Shavej Ali. I Have Done BCA in computer science from IIMMI
+          New Delhi.
+          My technical skills are HTML5, CSS3, JavaScript, jQuery, Bootstrap, and Reactjs.
+        </p>
+        <div class="bio-data-stats">
+          <div class="bio-stats">
+            <h3>Web Design</h3>
+            <div class="bio-progress-bar">
+              <span>70%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>HTML5</h3>
+            <div class="bio-progress-bar bio-progress-1">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>CSS</h3>
+            <div class="bio-progress-bar bio-progress-2">
+              <span>70%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>JavaScript</h3>
+            <div class="bio-progress-bar bio-progress-3">
+              <span>50%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>Bootstrap</h3>
+            <div class="bio-progress-bar bio-progress-4">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>Reactjs</h3>
+            <div class="bio-progress-bar bio-progress-5">
+              <span>60%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bio-data-btn">
+          <a href="#" class="btn"
+            target="_blank" download> Downlaod CV </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+        Portfolio works Section Start  
+    ========================================  -->
+  <section class="section-portfolio section " id="portfolio-section">
+    <div class="container">
+      <h2 class="common-heading">Latest works</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex
+        eos commodi provident tempore possimus, mollitia vero quas.
+      </p>
+    </div>
+
+    <div class="p-btns">
+      <button class="btn p-btn" data-btn-num="1">Websites</button>
+      <button class="btn p-btn" data-btn-num="2">Youtube </button>
+      <button class="btn p-btn" data-btn-num="3">Design</button>
+    </div>
+
+    <div class="container grid grid-three-col portfolio-images">
+      <div class="img-overlay p-btn--1">
+        <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 1</a>
+        </div>
+      </div>
+
+      <div class="img-overlay p-btn--3">
+        <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 2</a>
+        </div>
+      </div>
+
+      <div class="img-overlay p-btn--1">
+        <img src="images/folio/3.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 3</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1 p-btn--2">
+        <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 4</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--2">
+        <img src="images/folio/5.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 5</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1">
+        <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="" target="_blank" class="common-heading">Project 6</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          work completed counter section Start  
+    ========================================  -->
+
+  <section class="section-work-data section ">
+    <div class="container grid grid-four-col">
+      <div>
+        <h2 data-number="200" class="counter-numbers">0</h2>
+        <p>project completed</p>
+      </div>
+      <div>
+        <h2 data-number="400" class="counter-numbers">0+</h2>
+        <p>Happy clients</p>
+      </div>
+      <div>
+        <h2 data-number="500" class="counter-numbers">0+</h2>
+        <p>cups of coffee</p>
+      </div>
+      <div>
+        <h2 data-number="300" class="counter-numbers">0+</h2>
+        <p>real professionals</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our Service Section Start  
+    ========================================  -->
+  <section class="section-services section section--hidden">
+    <div class="container">
+      <h2 class="common-head">Service Offers</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex
+        dolores tempore possimus, mollitia vero quas
+      </p>
+    </div>
+
+    <div class="container grid grid-three-col">
+      <div class="service-box">
+        <ion-icon class="serive-icon" name="desktop-outline"></ion-icon>
+        <h3>web Design</h3>
+        <p>
+          “It is not because things are difficult that we do not dare; it is
+          because we do not dare that they are difficult.”
+        </p>
+      </div>
+
+      <div class="service-box">
+        <ion-icon name="logo-react" class="serive-icon"></ion-icon>
+        <h3>web development</h3>
+        <p>
+          “It is not because things are difficult that we do not dare; it is
+          because we do not dare that they are difficult.”
+        </p>
+      </div>
+
+      <div class="service-box">
+        <ion-icon class="serive-icon" name="desktop-outline"></ion-icon>
+        <h3>photography</h3>
+        <p>
+          “It is not because things are difficult that we do not dare; it is
+          because we do not dare that they are difficult.”
+        </p>
+      </div>
+
+      <div class="service-box">
+        <ion-icon class="serive-icon" name="desktop-outline"></ion-icon>
+        <h3>clipping path</h3>
+        <p>
+          “It is not because things are difficult that we do not dare; it is
+          because we do not dare that they are difficult.”
+        </p>
+      </div>
+      <div class="service-box">
+        <ion-icon class="serive-icon" name="desktop-outline"></ion-icon>
+        <h3>apps interface</h3>
+        <p>
+          “It is not because things are difficult that we do not dare; it is
+          because we do not dare that they are difficult.”
+        </p>
+      </div>
+      <div class="service-box">
+        <ion-icon class="serive-icon" name="desktop-outline"></ion-icon>
+        <h3>graphic design</h3>
+        <p>
+          “It is not because things are difficult that we do not dare; it is
+          because we do not dare that they are difficult.”
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our Testimonial Section Start  
+    ========================================  -->
+
+  <section class="section section-testimonial ">
+    <div class="container">
+      <h2 class="common-head">Happy Client works</h2>
+    </div>
+    <!-- Slider main container -->
+    <!-- Swiper -->
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+
+          <div class="swiper-client-msg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.quae eius accusantium consectetur delectus
+              suscipit nam possimus a cumque soluta quaerat nulla similique doloribus impedit sint.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img src="images/clients/a.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Nt tech</p>
+              <p>Entrepruner</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+        <div class="swiper-slide">
+
+          <div class="swiper-client-msg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.quae eius accusantium consectetur delectus
+              suscipit nam possimus a cumque soluta quaerat nulla similique doloribus impedit sint.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img src="images/clients/d.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Nt tech</p>
+              <p>Entrepruner</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+        <div class="swiper-slide">
+
+          <div class="swiper-client-msg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.quae eius accusantium consectetur delectus
+              suscipit nam possimus a cumque soluta quaerat nulla similique doloribus impedit sint.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img src="images/clients/f.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Nt tech</p>
+              <p>Entrepruner</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+        <div class="swiper-slide">
+
+          <div class="swiper-client-msg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.quae eius accusantium consectetur delectus
+              suscipit nam possimus a cumque soluta quaerat nulla similique doloribus impedit sint.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img src="images/clients/d.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Nt tech</p>
+              <p>Entrepruner</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+        <div class="swiper-slide">
+
+          <div class="swiper-client-msg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.quae eius accusantium consectetur delectus
+              suscipit nam possimus a cumque soluta quaerat nulla similique doloribus impedit sint.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img src="images/clients/a.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Nt tech</p>
+              <p>Entrepruner</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+         freelancing Section   
+    ========================================  -->
+
+  <section class="section section-freelancer ">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>I am <span> available </span> for frontend developer</h2>
+      <a href="/contact.html" class="btn"> HIRE ME </a>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our  Cotnact Us Section   
+    ========================================  -->
+
+  <section class="section section-contact ">
+    <div class="container">
+      <h2 class="common-heading">contact us</h2>
+    </div>
+
+    <div class="section-contact-main contact-container">
+      <form action="#" method="POST">
+        <div class=" grid grid-two-col">
+          <input type="text" name="username" id="" required placeholder="Name">
+          <input type="email" name="email" required placeholder="Email" autocomplete="off">
+        </div>
+        <div>
+          <input type="text" name="subject" placeholder="Subject" autocomplete="off" required>
+        </div>
+        <div>
+          <textarea name="message" placeholder="Message" autocomplete="off" required>
+              </textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="send message" class="btn">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our footer Section   
+    ========================================  -->
+
+  <footer class="section section-footer ">
+    <div class="container grid grid-four-col">
+      <div class="f-about">
+        <h3>About</h3>
+        <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your
+          convenience. Hope you like it.</p>
+      </div>
+
+      <div class="f-links">
+        <h3>Links</h3>
+        <ul>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/index.html">home</a></li>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/about.html">about</a></li>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/service.html">services</a></li>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="#portfolio-section">portfolio</a></li>
+
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/contact.html">contact</a></li>
+        </ul>
+      </div>
+
+      <div class="f-services">
+        <h3>Services</h3>
+        <ul>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/index.html">web design</a></li>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/index.html">web development</a></li>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/index.html">Mern Project</a></li>
+
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/index.html">Reactjs Project</a></li>
+          <li><span>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </span><a href="/index.html">Online Classes</a></li>
+        </ul>
+      </div>
+
+      <div class="f-address">
+        <h3>Have a Questions?</h3>
+        <address>
+          <div>
+            <p> <span>
+                <ion-icon name="location-outline"></ion-icon>
+              </span> Delhi, India </p>
+          </div>
+
+          <div>
+            <p> <span>
+                <ion-icon name="call-outline"></ion-icon>
+              </span> +91 9149098757 </p>
+          </div>
+
+          <div>
+            <p> <span>
+                <ion-icon name="mail-outline"></ion-icon>
+              </span>shvzrn@gmail.com</p>
+          </div>
+        </address>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="f-social-icons">
+        <a href="https://instagram.com/_shahvez_ali_?igshid=YmMyMTA2M2Y=" target="_blank">
+          <ion-icon class="icons" name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.facebook.com/shavez.rana.146" target="_blank">
+          <ion-icon class="icons" name="logo-facebook"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/shavej-ali-47169622a" target="_blank">
+          <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <div class="f-credits">
+        <p>Copyright ©2022 All rights reserved | This template is made with ❤ by Shavej Ali</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+
+
+
+</html>
